@@ -1,0 +1,30 @@
+{
+  "b0c262b1-be78-417e-abdc-0ef7b2569e9c": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/343f54b60898491781aa37c64ad0ae1a",
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1463/1.0.1463.2403/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {}
+    },
+    "datasets": {
+      "https://petrkulda.sharepoint.com/sites/PersonalHealth": {
+        "dataSources": {
+          "Blood pressures readings (per Person)": {
+            "tableName": "e592b617-a47d-4fba-9ddf-ae9a88506b5a"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Blood pressures readings (per Person)"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "b0c262b1-be78-417e-abdc-0ef7b2569e9c"
+  }
+}

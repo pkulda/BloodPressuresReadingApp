@@ -1,0 +1,51 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2021-04-26T16:32:16.1130000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "{Attachments}": "Attachments",
+      "{Attachments}@odata.type": "{Attachments} ({Attachments}@odata.type)",
+      "{FilenameWithExtension}": "File name with extension",
+      "{FullPath}": "Full Path",
+      "{HasAttachments}": "Has attachments",
+      "{Identifier}": "Identifier",
+      "{IsFolder}": "IsFolder",
+      "{Link}": "Link to item",
+      "{ModerationComment}": "Comments associated with the content approval of this list item",
+      "{ModerationStatus}": "Content approval status",
+      "{Name}": "Name",
+      "{Path}": "Folder path",
+      "{Thumbnail}": "Miniatura",
+      "{TriggerWindowEndToken}": "Trigger Window End Token",
+      "{TriggerWindowStartToken}": "Trigger Window Start Token",
+      "{VersionNumber}": "Version number",
+      "Author": "Autor",
+      "Author#Claims": "Autor Claims",
+      "ComplianceAssetId": "ID prostředku dodržování předpisů",
+      "Created": "Vytvořeno",
+      "date": "date",
+      "diastolic": "diastolic",
+      "Editor": "Autor změny",
+      "Editor#Claims": "Autor změny Claims",
+      "heartbeat": "heartbeat",
+      "ID": "ID",
+      "medication": "medication",
+      "medication#Id": "medication Id",
+      "Modified": "Změněno",
+      "person": "person",
+      "person#Claims": "person Claims",
+      "systolic": "systolic",
+      "Title": "Title"
+    },
+    "DatasetName": "https://petrkulda.sharepoint.com/sites/PersonalHealth",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "Blood pressures readings (per Person)",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]
